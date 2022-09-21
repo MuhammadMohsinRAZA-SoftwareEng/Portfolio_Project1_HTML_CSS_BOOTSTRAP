@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap link -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <title>Portfolio Project || HTML CSS BOOTSTRAP</title>
+  </head>
+
+  <body>
+    <!-- Navbar and banner area -->
+    <section class="main-class">
+      <div class="nav-parent">
+        <div class="container header-section">
+          <div class="web-logo">
+            <img
+              src="./resources/logo.jpg"
+              alt="Main home logo"
+              width="100px"
+              height="40px"
+            />
+          </div>
+          <div class="nav-menus">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">SERVICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">FEATURE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">PRICE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a
+                    class="btn btn-secondary dropdown-toggle nav-link active"
+                    aria-current="page"
+                    href="#"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                    style="background: transparent; color: black; border: none"
+                  >
+                    Pages
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li><a class="dropdown-item" href="#">Page One</a></li>
+                    <li><a class="dropdown-item" href="#">Page Two</a></li>
+                    <li><a class="dropdown-item" href="#">Page Three</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-12" id="disabled">
+
+        <div class="dropdown">
+            <div class="dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul class="dropdown-menu">
+              <li><button class="dropdown-item" type="button">HOME</button></li>
+              <li><button class="dropdown-item" type="button">ABOUT</button></li>
+              <li><button class="dropdown-item" type="button">RESUME</button></li>
+              <li><button class="dropdown-item" type="button">WORKS</button></li>
+              <li><button class="dropdown-item" type="button">TESTIMONIALS</button></li>
+              <li><button class="dropdown-item" type="button">CONTACT</button></li>
+            </ul>
+          </div>
+        </div>
+
+      <div class="banner-main">
+        <div class="container">
+          <div class="row"id="ban-main">
+            <div class="col-6" id="banner-left-top">
+              <div class="row-1">
+                <h1>
+                  The Best App<br />
+                  In the Universe
+                </h1>
+              </div>
+              <div class="row-2">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Iste, eveniet! <br />
+                  aliquam laboriosam laborum animi recusandae et.
+                </p>
+              </div>
+              <div class="row-3" id="banner-left-bottom">
+                <button class="banner-btn" type="button">LOAD MORE ITEM</button>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <img src="./resources/header-img.png" alt="header main image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Page details Section -->
+    <section class="page-details">
+      <div class="parent-container">
+        <div class="container" id="p-details">
+          <div class="container-child">
+            <div class="child-text">
+              <h1>Latest News From All Categories</h1>
+              <p>
+                Lorem ipsum dolor sit amet fuga qui! Veniam, sequi
+                expeconsectetur adipisicing elit. Saepe error<br />
+                fuga qui! Veniam, sequi expedita.
+              </p>
+            </div>
+          </div>
+
+          <div class="container-secondchild">
+            <div class="row">
+              <!-- left -->
+              <div class="col-4" style="text-align: center" id="d-icons">
+                <div class="row-1">
+                  <i class="fa-solid fa-wand-magic-sparkles"> </i>
+                </div>
+                <div class="row-2">
+                  <h2>Maintenance</h2>
+                </div>
+                <div class="row-">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae totam cum voluptatem maiores quae dignissimos nam ad
+                    culpa molestias ullam!
+                  </p>
+                </div>
+              </div>
+              <!-- center -->
+              <div class="col-4" style="text-align: center" id="d-icons">
+                <div class="row-1">
+                  <i class="fa-solid fa-rocket"></i>
+                </div>
+                <div class="row-2">
+                  <h2>Residental Service</h2>
+                </div>
+                <div class="row-">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae totam cum voluptatem maiores quae dignissimos nam ad
+                    culpa molestias ullam!
+                  </p>
+                </div>
+              </div>
+              <!--right  -->
+              <div class="col-4" style="text-align: center" id="d-icons">
+                <div class="row-1">
+                  <i class="fa-solid fa-bug"></i>
+                </div>
+                <div class="row-2">
+                  <h2>Commercial Service</h2>
+                </div>
+                <div class="row-">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vitae totam cum voluptatem maiores quae dignissimos nam ad
+                    culpa molestias ullam!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About details -->
+    <section class="about-details">
+      <div class="details-childdiv">
+        <div class="container" id="details-cont">
+          <div class="row">
+            <div class="col-5" id="details-cont-text">
+              <div class="row-1">
+                <h1>
+                  We Believe that<br />
+                  Interior beautifies the<br />
+                  Total Architecture
+                </h1>
+              </div>
+
+              <div class="row-2">
+                <p>
+                  inappropriate behavior is often laughed off as “boys will be
+                  boys,” women face higher conduct standards especially in the
+                  workplace. That’s why it’s crucial that, as women, our
+                  behavior on the job is beyond reproach. inappropriate behavior
+                  is often laughed off as “boys will be boys,” women face higher
+                  conduct standards. especially in the workplace. That’s why
+                  it’s crucial that.
+                </p>
+              </div>
+
+              <div class="row-3">
+                <button
+                  class="see-details"
+                  type="button"
+                  id="details-bottom-btn"
+                >
+                  SEE DETAILS
+                </button>
+              </div>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-6">
+              <img src="./resources/xabout-img.png" alt="about us image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features-details">
+      <div class="feature-childiv">
+        <div class="container" id="fea-details">
+          <div id="cont-text">
+            <h1>Some Features that Made us Unique</h1>
+            <p>Who are in extremely love with eco friendly system.</p>
+          </div>
+
+          <div class="row">
+            <div class="styleclass">
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x1.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Expert Technicians</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Professional Service</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x3.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Great Support</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="styleclass">
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x4.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Expert Technicians</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x5.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Professional Service</h4>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-4">
+                <div class="card" id="card-style">
+                  <div style="width: 6rem">
+                    <img
+                      src="./resources/x6.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+
+                  <div class="card-body">
+                    <h4 class="card-text">Great Support</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video -->
+    <section class="y-video">
+        <div
+          class="vid"
+          style="background-color:whitesmoke; padding: 60px 0px 60px 0px"
+        >
+        <div class="video-div">
+        <a href="https://www.youtube.com/embed/0O2aH4XLbto">
+          <img id="play-btn" src="./resources/videoplaybtn.png" alt="Video"
+        /></a>
+        <div class="text">
+          <h4>Being unique is the preference</h4>
+          <p>Youtube video will appear in popover</p>
+        </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Slider -->
+    <section class="img-slider">
+      <div class="container" style="padding: 20px 0px 60px 0">
+        <div class="slider-txt">
+          <h1>Some Features that Made us Unique</h1>
+          <p>We are in extremly love with eco friendly system</p>
+        </div>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="imgs-parent">
+                <div class="img1">
+                  <img src="./resources/xs1.jpg" alt="slider image" />
+                </div>
+                <div class="img2">
+                  <img src="./resources/xs2.jpg" alt="slider image" />
+                </div>
+                <div class="img3">
+                  <img src="./resources/xs3.jpg" alt="slider image" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="imgs-parent">
+                <div class="img1">
+                  <img src="./resources/xs1.jpg" alt="slider image" />
+                </div>
+                <div class="img2">
+                  <img src="./resources/xs2.jpg" alt="slider image" />
+                </div>
+                <div class="img3">
+                  <img src="./resources/xs3.jpg" alt="slider image" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+      <div class="container" id="cont-pricing">
+        <div class="header-pricing">
+          <h1>Choose the Perfect Plan for you</h1>
+          <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-4" id="price-cards">
+            <div class="txt-top">
+              <div class="txt-heading">
+                <h3>Standard</h3>
+                <p>For the individuals</p>
+              </div>
+              <div class="price-heading">
+                <h1>£199</h1>
+              </div>
+            </div>
+            <hr style="border: 1px solid black" />
+
+            <div class="hover-effect">
+              <div class="txt-middle">
+                <p>“Few would argue that, despite the advancements</p>
+              </div>
+
+              <hr id="hr-style" />
+
+              <div class="txt-bottum">
+                <div class="end-sec">
+                  <ul>
+                    <li>2.5 GB Free Photos</li>
+                    <li>Secure Online Transfer Indeed</li>
+                    <li>Unlimited Styles for interface</li>
+                    <li>Reliable Customer Service</li>
+                    <li>Manual Backup Provided</li>
+                  </ul>
+                  <div class="btnclass">
+                    <button
+                      class="primary-btn price-btn mt-20"
+                      id="purchase-btn"
+                    >
+                      Purchase Plan
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4" id="price-cards">
+            <div class="txt-top">
+              <div class="txt-heading">
+                <h3>Business</h3>
+                <p>For the small Company</p>
+              </div>
+              <div class="price-heading">
+                <h1>£399</h1>
+              </div>
+            </div>
+            <hr style="border: 1px solid black" />
+
+            <div class="hover-effect">
+              <div class="txt-middle">
+                <p>“Few would argue that, despite the advancements</p>
+              </div>
+
+              <hr id="hr-style" />
+
+              <div class="txt-bottum">
+                <div class="end-sec">
+                  <ul>
+                    <li>2.5 GB Free Photos</li>
+                    <li>Secure Online Transfer Indeed</li>
+                    <li>Unlimited Styles for interface</li>
+                    <li>Reliable Customer Service</li>
+                    <li>Manual Backup Provided</li>
+                  </ul>
+                  <div class="btnclass">
+                    <button
+                      class="primary-btn price-btn mt-20"
+                      id="purchase-btn"
+                    >
+                      Purchase Plan
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-4" id="price-cards">
+            <div class="txt-top">
+              <div class="txt-heading">
+                <h3>Ultimate</h3>
+                <p>For the large Company</p>
+              </div>
+              <div class="price-heading">
+                <h1>£499</h1>
+              </div>
+            </div>
+            <hr style="border: 1px solid black" />
+
+            <div class="hover-effect">
+              <div class="txt-middle">
+                <p>“Few would argue that, despite the advancements</p>
+              </div>
+
+              <hr id="hr-style" />
+
+              <div class="txt-bottum">
+                <div class="end-sec">
+                  <ul>
+                    <li>2.5 GB Free Photos</li>
+                    <li>Secure Online Transfer Indeed</li>
+                    <li>Unlimited Styles for interface</li>
+                    <li>Reliable Customer Service</li>
+                    <li>Manual Backup Provided</li>
+                  </ul>
+                  <div class="btnclass">
+                    <button
+                      class="primary-btn price-btn mt-20"
+                      id="purchase-btn"
+                    >
+                      Purchase Plan
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ's -->
+    <section class="faq">
+      <div class="container" id="faqs-style">
+        <div class="faq-topheading">
+          <h1>Frequently Asked Questions</h1>
+          <p>Who are in extremely love with eco friendly system.</p>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="left-txt">
+              <h1>5962</h1>
+              <p>Projects Completed</p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6">
+            <div class="row-1" id="row-1">
+              <h4>Are your Templates responsive?</h4>
+              <p>
+                “Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when
+                it comes to their behavior. While men’s borderline-inappropriate
+                behavior.
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="left-txt">
+              <h1>1439</h1>
+              <p>Have you submitted tickets?</p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6">
+            <div class="row-1" id="row-1">
+              <h4>Does it have all the plugin as mentioned?</h4>
+              <p>
+                “Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when
+                it comes to their behavior. While men’s borderline-inappropriate
+                behavior.
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="left-txt">
+              <h1>933</h1>
+              <p>Cup of Coffee</p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6">
+            <div class="row-1" id="row-1">
+              <h4>Can i use the these theme for my client?</h4>
+              <p>
+                “Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when
+                it comes to their behavior. While men’s borderline-inappropriate
+                behavior.
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <div class="left-txt">
+              <h1>5962</h1>
+              <p>Projects Completed</p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-6">
+            <div class="row-1" id="row-1">
+              <h4>Are your Templates responsive?</h4>
+              <p>
+                “Few would argue that, despite the advancements of feminism over
+                the past three decades, women still face a double standard when
+                it comes to their behavior. While men’s borderline-inappropriate
+                behavior.
+              </p>
+            </div>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster -->
+    <section class="poster">
+      <div class="container">
+        <div class="row" id="poster-style">
+          <div class="poster-txt">
+            <h1>Download This App Today!</h1>
+            <p>
+              It won’t be a bigger problem to find one video game lover in your
+              neighbor. Since the introduction of Virtual Game, it has been
+              achieving great heights so far as its popularity and technological
+              advancement are concerned.
+            </p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="btns" id="app-btns">
+            <button class="btn" id="btns">
+              <i class="fa-brands fa-apple" style="font-size: 40px"></i>
+
+              <span id="span-txt">
+                <h4>Available</h4>
+                <p>on Apple Store</p>
+              </span>
+            </button>
+            <button class="btn" id="btns">
+              <i class="fa-brands fa-android" style="font-size: 40px"></i>
+
+              <span id="span-txt">
+                <h4>Available</h4>
+                <p>on Play Store</p>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footerp">
+      <div class="container">
+        <div class="row" id="footer-headings">
+          <div class="col-2">
+            <h4>Top Products</h4>
+            <ul class="list-li">
+              <li>Managed Website</li>
+              <li>Manage Reputation</li>
+              <li>Power Tools</li>
+              <li>Marketing Services</li>
+            </ul>
+          </div>
+          <div class="col-1"></div>
+          <div class="col-5">
+            <h4>News Letter</h4>
+            <p>
+              You can trust us. we only send promo offers, not a single spam.
+            </p>
+            <div class="form-btn">
+              <input id="email-input" name="EMAIL" placeholder="Enter Email" type="email" />
+              <button id="sub-btn">Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <h4>Instagram Feed</h4>
+            <ul style="display: flex; flex-wrap: wrap; list-style: none">
+              <li>
+                <img src="./resources/xi1.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi2.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi3.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi4.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi5.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi6.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi7.jpg" alt="" />
+              </li>
+              <li>
+                <img src="./resources/xi8.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+          <div class="col-1"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-8" id="footer-bot-txt">
+            <p style="color:white">
+              Copyright © 2022 All rights reserved | This template is made with
+              <i class="fa-regular fa-heart"></i> by
+              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+            </p>
+          </div>
+          <div class="col-4">
+            <div class="footer-bot-socialmedia-icons">
+            <button><i class="fa-brands fa-facebook" id="btn-sy"></i></button>
+            <button><i class="fa-brands fa-twitter" id="btn-sy"></i></button>
+            <button><i class="fa-brands fa-dribbble" id="btn-sy"></i></button>
+            <button><i class="fa-brands fa-behance" id="btn-sy"></i></button>
+            </div>
+          </div>
+        </div>
+      
+      
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
